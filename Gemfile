@@ -64,4 +64,9 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #deviseをインストール_ログイン機能
 gem 'devise'
 
+#refileをインストール_ファイルをアップロードできるようにするgem
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+
+#refile-mini_magick_アップロードした画像のリサイズを行えるgem
+gem "refile-mini_magick"
 
